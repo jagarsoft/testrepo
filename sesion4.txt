@@ -1,0 +1,24 @@
+En la sesion 4 creamos un repositorio remoto en Github siguiendo las indicaciones y lo poblamos con nuestra copia local
+
+$ git remote add origin https://github.com/jagarsoft/testrepo.git
+$ git push -u origin master
+
+Username for 'https://github.com': jagarsoft
+Password for 'https://jagarsoft@github.com': 
+To https://github.com/jagarsoft/testrepo.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Asi, si alguien quisiera bajar una copia de este repositorio
+deberia hacer:
+
+$ mkdir testrepo
+$ cd testrepo
+$ git clone https://github.com/jagarsoft/testrepo.git
+
+E inmediatamente hacer una copia en una rama local con:
+
+git checkout -b mycontrib
+
+De esta manera, se mantiene intacta la rama principal (master)
+
