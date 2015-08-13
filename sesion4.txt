@@ -30,4 +30,9 @@ $ git commit -am 'Confirmar las sesiones 3 y 4 que tratan con repositorios remot
  create mode 100644 sesion3.txt
  create mode 100644 sesion4.txt
 
+$ git push origin master
+Username for 'https://github.com': jagarsoft
+Password for 'https://jagarsoft@github.com': 
+To https://github.com/jagarsoft/testrepo.git
+   00cc2ae..ec4228b  master -> master
 
