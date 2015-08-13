@@ -22,3 +22,12 @@ git checkout -b mycontrib
 
 De esta manera, se mantiene intacta la rama principal (master)
 
+Finalmente, subimos los cambios:
+
+$ git commit -am 'Confirmar las sesiones 3 y 4 que tratan con repositorios remotos'
+[master b196ece] Confirmar las sesiones 3 y 4 que tratan con repositorios remotos
+ 2 files changed, 52 insertions(+)
+ create mode 100644 sesion3.txt
+ create mode 100644 sesion4.txt
+
+
