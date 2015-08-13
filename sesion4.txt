@@ -12,11 +12,10 @@ Branch master set up to track remote branch master from origin.
 Asi, si alguien quisiera bajar una copia de este repositorio
 deberia hacer:
 
-$ mkdir testrepo
-$ cd testrepo
 $ git clone https://github.com/jagarsoft/testrepo.git
 
-E inmediatamente hacer una copia en una rama local con:
+Que ya crea el directorio testrepo,
+e inmediatamente hacer una copia en una rama local con:
 
 git checkout -b mycontrib
 
