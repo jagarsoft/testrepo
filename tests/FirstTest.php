@@ -7,12 +7,14 @@ class FirstTest extends TestCase
 {
 	
 	/**
-	* @covers
+	* @covers jagarsoft\TestRepo\FirstClass::__construct
+	* @covers jagarsoft\TestRepo\FirstClass::testMethod
 	* @link https://github.com/sebastianbergmann/phpunit-documentation/issues/171#issuecomment-67239415
 	*/
 	function test_can_make_FirstClass_class(){
 		try {
-		  $fc = new FirstClass();
+		  $fc = new FirstClass(null);
+		  $fc->testMethod();
 		} catch (\Exception $notExpected) {
 		  $this->fail();
 		}

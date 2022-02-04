@@ -4,5 +4,15 @@ namespace jagarsoft\TestRepo;
 
 class FirstClass
 {
-	public function __construct(){}
+    private $attr;
+
+    public function __construct($param)
+    {
+        $this->attr = $param;
+    }
+
+    public function testMethod()
+    {
+        return null;
+    }
 }
