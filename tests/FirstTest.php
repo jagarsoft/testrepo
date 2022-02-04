@@ -3,14 +3,16 @@
 use PHPUnit\Framework\TestCase;
 use jagarsoft\TestRepo\FirstClass;
 
-class FirstTest extends TestCase {
+class FirstTest extends TestCase
+{
 	
 	/**
+	* @covers
 	* @link https://github.com/sebastianbergmann/phpunit-documentation/issues/171#issuecomment-67239415
 	*/
-	function test_can_make_FirstMachine_class(){
+	function test_can_make_FirstClass_class(){
 		try {
-		  $sm = new FirstClass();
+		  $fc = new FirstClass();
 		} catch (\Exception $notExpected) {
 		  $this->fail();
 		}

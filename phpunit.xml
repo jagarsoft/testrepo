@@ -9,9 +9,9 @@
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
          convertDeprecationsToExceptions="true"
-         failOnRisky="true"
-         failOnWarning="true"
-         verbose="true">
+         failOnRisky="false"
+         failOnWarning="false"
+         colors="true">
     <testsuites>
         <testsuite name="default">
             <directory>tests</directory>
