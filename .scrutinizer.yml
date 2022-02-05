@@ -10,4 +10,3 @@ build:
 checks:
     php:
         code_rating: true
-		
