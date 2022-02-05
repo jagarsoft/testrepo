@@ -1,12 +1,12 @@
 build:
-    nodes:
-        environment:
-            php:
-                version: '>=8.0'
+  nodes:
     coverage:
-        tests:
-            override:
-                - command: XDEBUG_MODE=coverage vendor/bin/phpunit --testdox --verbose
-                  coverage:
-                    file: coverage-report/coverage.xml
-                    format: clover
+      tests:
+        override:
+          - command: XDEBUG_MODE=coverage vendor/bin/phpunit --testdox --verbose
+            coverage:
+              file: coverage-report/coverage.xml
+              format: clover
+checks:
+    php:
+        code_rating: true
