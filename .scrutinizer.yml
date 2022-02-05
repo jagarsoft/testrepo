@@ -5,5 +5,5 @@ build:
         override:
           - command: vendor/bin/phpunit --testdox --verbose
             coverage:
-              file: coverage-report\coverage.xml
+              file: coverage-report/coverage.xml
               format: clover
