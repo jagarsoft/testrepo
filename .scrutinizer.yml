@@ -3,7 +3,7 @@ build:
     coverage:
       tests:
         override:
-          - command: vendor/bin/phpunit --testdox --verbose
+          - command: XDEBUG_MODE=coverage vendor/bin/phpunit --testdox --verbose
             coverage:
               file: coverage-report/coverage.xml
               format: clover
